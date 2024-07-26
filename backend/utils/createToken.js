@@ -12,7 +12,7 @@ const generateToken = (res, userId) => {
     sameSite: "strict",
     maxAge: 30 * 24 * 60 * 60 * 1000,
   });
-  console.log("cookie sent, ", res.getHeaders()['set-cookie']);
+  console.log("cookie sent, ", res.getHeaders()['set-cookie'], "token", token);
   return token;
 };
 
