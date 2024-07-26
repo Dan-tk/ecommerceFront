@@ -24,7 +24,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'https://ecomfrontend-1.onrender.com',
-  'https://another-allowed-domain.com'
+  'https://frontendapp-tk.netlify.app'
 ];
 
 const corsOptions = {
