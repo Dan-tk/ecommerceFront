@@ -37,8 +37,8 @@ const corsOptions = {
     }
     return callback(null, true);
   },
-  credentials: true, // Enable sending of cookies
-  optionsSuccessStatus: 200 
+  credentials: true // Enable sending of cookies
+  
 };
 
 app.use(cors(corsOptions));
